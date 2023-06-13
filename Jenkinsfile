@@ -27,7 +27,7 @@ pipeline {
 			}
 			steps{
 				script {
-					docker.withRegistry('https://us.gcr.io', 'gcr: gcr_admin_key') {
+					docker.withRegistry('https://us.gcr.io', 'gcr: gcr-admin-key') {
 						ms1.push("latest")
 					}                    
 				}
