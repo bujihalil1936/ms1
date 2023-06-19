@@ -39,7 +39,7 @@ pipeline {
 				expression{env.GIT_BRANCH == 'origin/main'}
 			}
 			steps{
-				build job: 'deploy-to-k8s'
+				build job: 'gke-deep-test-1'
 			}    
 		}
 	}
