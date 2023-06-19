@@ -6,12 +6,7 @@ pipeline {
 				checkout scm
 			}
 		}
-		environment {
-        		NAMESPACE = 'argocd'
-        		PROJECT_ID = 'deep-test-295508'
-        		CLUSTER_NAME = 'gke-deep-test-1'
-       			LOCATION = 'us-central1-c'
-        		CREDENTIALS_ID = 'gcr-admin-key'
+
 
 
 	// Develop chain
